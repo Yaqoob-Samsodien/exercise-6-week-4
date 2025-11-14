@@ -1,4 +1,4 @@
-// TODO: Create a Promise that simulates fetching user data
+/ TODO: Create a Promise that simulates fetching user data
 // - The Promise should resolve after 1.5 seconds
 // - If userId is positive, resolve with user data object
 // - If userId is negative or zero, reject with an error
@@ -6,7 +6,7 @@
 // // TODO: Create a function that uses template literals for HTML generation
 let userId=true
 
-function fetchUserData(userId) {
+function fetchUserData() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       if (userId ==true ) {
@@ -51,7 +51,7 @@ fetchUserData(userId)
 
 let PostId=true
 
-function fetchUserPosts(PostId) {
+function fetchUserPosts() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       if (PostId ==true ) {
